@@ -1,0 +1,13 @@
+{
+  "name": "@softwareventures/fetch-ponyfill-preconfigured",
+  "version": "0.0.0",
+  "description": "Preconfigured fetch-ponyfill using promise-ponyfill",
+  "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "@softwareventures/tsconfig": "^1.0.0",
+    "@softwareventures/tslint-rules": "^0.6.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}
