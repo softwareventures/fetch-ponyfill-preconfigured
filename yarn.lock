@@ -15,6 +15,16 @@
     tslib "^1.9.3"
     tslint-eslint-rules "^5.4.0"
 
+"@types/promise-polyfill@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@types/promise-polyfill/-/promise-polyfill-6.0.1.tgz#8e35842d48cb9c36fd67152f7f49dd00aae929ab"
+  integrity sha512-39Rn9/0Y+6RjOnljXeKzIjKIfxyOCpL/oF8ZeeIrBY3nOpYUGeWYFIyfuyl6LRAxmtYdZv+dTAJs3D2LKCZr/Q==
+
+"@types/setasap@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/setasap/-/setasap-2.0.0.tgz#169ed97dc9ae707670e68d2d46400c3df1f7c898"
+  integrity sha512-nbaj9OJdCiJUM2daJPWO+lgcrp4wR4ZPhwA7s/8+9YstW3/TzMJ4v1tY5RaNUZeOUfAmVXEoXXqsEsQxZ/Zdvw==
+
 ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
@@ -141,6 +151,13 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
   integrity sha1-Cr9PHKpbyx96nYrMbepPqqBLrJs=
 
+fetch-ponyfill@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/fetch-ponyfill/-/fetch-ponyfill-6.0.2.tgz#bc2d92afd0140e39518beccd2fd0682ab4491cb6"
+  integrity sha512-hBWVb6Z0chjr9r0g4N5uknldAnyFstWTnX6oFxMsL9ZlSL7fa66Keis3y4SCMgpTggY4GeGbB4z3z5g5SmrgkQ==
+  dependencies:
+    node-fetch "~2.1.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -208,6 +225,11 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
+node-fetch@~2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
+  integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
+
 once@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
@@ -225,6 +247,21 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+promise-polyfill@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.1.0.tgz#30059da54d1358ce905ac581f287e184aedf995d"
+  integrity sha512-OzSf6gcCUQ01byV4BgwyUCswlaQQ6gzXc23aLQWhicvfX9kfsUiUhgt3CCQej8jDnl8/PhGF31JdHX2/MzF3WA==
+
+promise-ponyfill@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.0.2.tgz#cfebca3df3fbaa17d6d51c4fbc3242d05452a89e"
+  integrity sha512-bgWCsmwzIRH0bl1/SGnpwKxbzf92LbiZfDQ/cVNF+XxbZIKL1kc1gh8GCSGwolsRuUmWQBGejxk+7H2kNGnR/A==
+  dependencies:
+    "@types/promise-polyfill" "^6.0.1"
+    "@types/setasap" "^2.0.0"
+    promise-polyfill "^8.1.0"
+    setasap "^2.0.1"
+
 resolve@^1.3.2:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.10.0.tgz#3bdaaeaf45cc07f375656dfd2e54ed0810b101ba"
@@ -236,6 +273,11 @@ semver@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+setasap@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/setasap/-/setasap-2.0.1.tgz#affba1a2841ba9a0825f652ea5cbe6ce88a4cef4"
+  integrity sha512-DsoqaT3/BB0FTXi8DGMoJse2SGYkUTkOQaCjBx/DJSodGN2EE/rHU9CyJ7H1mYGMyzJvwUlgJQTI4twRg5QY3g==
 
 sprintf-js@~1.0.2:
   version "1.0.3"
