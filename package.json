@@ -1,6 +1,6 @@
 {
   "name": "@softwareventures/fetch-ponyfill-preconfigured",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Preconfigured fetch-ponyfill using promise-ponyfill",
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/fetch-ponyfill-preconfigured",
