@@ -3,7 +3,15 @@
   "version": "0.0.0",
   "description": "Preconfigured fetch-ponyfill using promise-ponyfill",
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "homepage": "https://github.com/softwareventures/fetch-ponyfill-preconfigured",
+  "bugs": "https://github.com/softwareventures/fetch-ponyfill-preconfigured/issues",
   "license": "ISC",
+  "repository": "github:softwareventures/fetch-ponyfill-preconfigured",
+  "scripts": {
+    "prepare": "tslint --project . && tsc",
+    "test": "echo No tests yet"
+  },
+  "sideEffects": false,
   "devDependencies": {
     "@softwareventures/tsconfig": "^1.0.0",
     "@softwareventures/tslint-rules": "^0.6.2",
