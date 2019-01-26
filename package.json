@@ -14,7 +14,7 @@
   "sideEffects": false,
   "devDependencies": {
     "@softwareventures/tsconfig": "1.0.0",
-    "@softwareventures/tslint-rules": "0.6.2",
+    "@softwareventures/tslint-rules": "0.6.4",
     "tslint": "5.12.1",
     "typescript": "3.2.4"
   },
