@@ -164,9 +164,9 @@
   integrity sha512-Exw4yUWMBXM3X+8oqzJNRqZSwUAaS4+7NdvHqQuFi/d+synz++xmX3QIf+BFqneW8N31R8Ky+sikfZUXq07ggQ==
 
 "@types/promise-polyfill@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@types/promise-polyfill/-/promise-polyfill-6.0.1.tgz#8e35842d48cb9c36fd67152f7f49dd00aae929ab"
-  integrity sha512-39Rn9/0Y+6RjOnljXeKzIjKIfxyOCpL/oF8ZeeIrBY3nOpYUGeWYFIyfuyl6LRAxmtYdZv+dTAJs3D2LKCZr/Q==
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@types/promise-polyfill/-/promise-polyfill-6.0.3.tgz#e2f38fcd244a9e0df2cc7528e0711abcbc707b5e"
+  integrity sha512-f/BFgF9a+cgsMseC7rpv9+9TAE3YNjhfYrtwCo/pIeCDDfQtE6PY0b5bao2eIIEpZCBUy8Y5ToXd4ObjPSJuFw==
 
 "@types/setasap@^2.0.0":
   version "2.0.0"
@@ -3537,9 +3537,9 @@ promise-polyfill@^8.1.0:
   integrity sha512-OzSf6gcCUQ01byV4BgwyUCswlaQQ6gzXc23aLQWhicvfX9kfsUiUhgt3CCQej8jDnl8/PhGF31JdHX2/MzF3WA==
 
 promise-ponyfill@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.0.2.tgz#cfebca3df3fbaa17d6d51c4fbc3242d05452a89e"
-  integrity sha512-bgWCsmwzIRH0bl1/SGnpwKxbzf92LbiZfDQ/cVNF+XxbZIKL1kc1gh8GCSGwolsRuUmWQBGejxk+7H2kNGnR/A==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.0.3.tgz#df17ca116562a9f3c6a291abe2d915945fad9c22"
+  integrity sha512-zfd/kREfbXCaS5x3hmpPcibnYi7wHNmLCymjBRswWgsHRnuzC5ma5RHQvXAewF2L5mL+T1XBsitV4b8nYKvRNQ==
   dependencies:
     "@types/promise-polyfill" "^6.0.1"
     "@types/setasap" "^2.0.0"
