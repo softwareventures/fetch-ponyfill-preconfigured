@@ -2,6 +2,11 @@
   "name": "@softwareventures/fetch-ponyfill-preconfigured",
   "version": "1.0.0",
   "description": "Preconfigured fetch-ponyfill using promise-ponyfill",
+  "keywords": [
+    "TypeScript",
+    "fetch",
+    "ponyfill"
+  ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/fetch-ponyfill-preconfigured",
   "bugs": "https://github.com/softwareventures/fetch-ponyfill-preconfigured/issues",
