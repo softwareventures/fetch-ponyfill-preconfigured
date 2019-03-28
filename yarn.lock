@@ -3536,10 +3536,10 @@ promise-polyfill@^8.1.0:
   resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.1.0.tgz#30059da54d1358ce905ac581f287e184aedf995d"
   integrity sha512-OzSf6gcCUQ01byV4BgwyUCswlaQQ6gzXc23aLQWhicvfX9kfsUiUhgt3CCQej8jDnl8/PhGF31JdHX2/MzF3WA==
 
-promise-ponyfill@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.0.3.tgz#df17ca116562a9f3c6a291abe2d915945fad9c22"
-  integrity sha512-zfd/kREfbXCaS5x3hmpPcibnYi7wHNmLCymjBRswWgsHRnuzC5ma5RHQvXAewF2L5mL+T1XBsitV4b8nYKvRNQ==
+promise-ponyfill@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.1.0.tgz#dcd52dc62eb28861330a6b9c2b76db0aabfb8931"
+  integrity sha512-+N8mpWIo2xqo7t5ZpqFAEsPc51EM9oBDb0gL+k0lx+OPj4+y+pIlL74jaAgqyhvgKluedbtnRO8gg0TJLkFNfQ==
   dependencies:
     "@types/promise-polyfill" "^6.0.1"
     "@types/setasap" "^2.0.0"
