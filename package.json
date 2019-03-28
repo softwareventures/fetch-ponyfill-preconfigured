@@ -13,8 +13,8 @@
   "license": "ISC",
   "repository": "github:softwareventures/fetch-ponyfill-preconfigured",
   "scripts": {
-    "prepare": "tslint --project . && tsc",
-    "test": "echo No tests yet",
+    "prepare": "tsc",
+    "test": "tslint --project .",
     "semantic-release": "semantic-release"
   },
   "sideEffects": false,
