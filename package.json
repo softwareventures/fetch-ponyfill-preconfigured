@@ -27,7 +27,7 @@
     "typescript": "4.0.5"
   },
   "dependencies": {
-    "fetch-ponyfill": "^6.0.2",
+    "fetch-ponyfill": "^7.0.0",
     "promise-ponyfill": "^1.1.0"
   },
   "config": {
