@@ -19,7 +19,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@softwareventures/tsconfig": "2.3.3",
+    "@softwareventures/tsconfig": "5.0.1",
     "@softwareventures/tslint-rules": "0.9.1",
     "cz-conventional-changelog": "3.3.0",
     "semantic-release": "17.4.2",
