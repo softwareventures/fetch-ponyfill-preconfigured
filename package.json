@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "fetch-ponyfill": "^7.0.0",
-    "promise-ponyfill": "^1.1.0"
+    "promise-ponyfill": "^1.1.0 || ^1.1.0"
   },
   "config": {
     "commitizen": {
