@@ -18,6 +18,9 @@
     "test": "tslint --project ."
   },
   "sideEffects": false,
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
   "dependencies": {
     "fetch-ponyfill": "^7.0.0",
     "promise-ponyfill": "^1.1.0 || ^1.1.0"
