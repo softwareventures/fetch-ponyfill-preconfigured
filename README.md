@@ -27,6 +27,13 @@ yarn add @softwareventures/fetch-ponyfill-preconfigured
 ```
 
 
+## Alternatives
+
+ * [cross-fetch][4]
+ * [fetch-ponyfill][2]
+ * [isomorphic-fetch][5]
+
+
 ## Copyright
 
 See [LICENSE.md](LICENSE.md) for copyright and licensing information
@@ -39,3 +46,5 @@ and licensing terms. See the documentation for those modules.
   [1]: https://ponyfill.com/
   [2]: https://www.npmjs.com/package/fetch-ponyfill
   [3]: https://www.npmjs.com/package/promise-ponyfill
+  [4]: https://www.npmjs.com/package/cross-fetch
+  [5]: https://www.npmjs.com/package/isomorphic-fetch
