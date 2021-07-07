@@ -309,20 +309,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/promise-polyfill@^6.0.1":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@types/promise-polyfill/-/promise-polyfill-6.0.3.tgz#e2f38fcd244a9e0df2cc7528e0711abcbc707b5e"
-  integrity sha512-f/BFgF9a+cgsMseC7rpv9+9TAE3YNjhfYrtwCo/pIeCDDfQtE6PY0b5bao2eIIEpZCBUy8Y5ToXd4ObjPSJuFw==
-
 "@types/retry@^0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
-
-"@types/setasap@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/setasap/-/setasap-2.0.0.tgz#169ed97dc9ae707670e68d2d46400c3df1f7c898"
-  integrity sha512-nbaj9OJdCiJUM2daJPWO+lgcrp4wR4ZPhwA7s/8+9YstW3/TzMJ4v1tY5RaNUZeOUfAmVXEoXXqsEsQxZ/Zdvw==
 
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
@@ -4203,21 +4193,6 @@ promise-inflight@^1.0.1, promise-inflight@~1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-promise-polyfill@^8.1.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.2.0.tgz#367394726da7561457aba2133c9ceefbd6267da0"
-  integrity sha512-k/TC0mIcPVF6yHhUvwAp7cvL6I2fFV7TzF1DuGPI8mBh4QQazf36xCKEHKTZKRysEoTQoQdKyP25J8MPJp7j5g==
-
-"promise-ponyfill@^1.1.0 || ^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/promise-ponyfill/-/promise-ponyfill-1.1.1.tgz#422666f42e348d1c6ebdff7dab3354e33dc56800"
-  integrity sha512-jKzGtuehnaDg4CtIKwPLaYmU0u9FALmTvqDBlOqbmqqdqAUaKKTGegOHCP1GmEhBC9EBKey1JS8cZbTmiwgXMw==
-  dependencies:
-    "@types/promise-polyfill" "^6.0.1"
-    "@types/setasap" "^2.0.0"
-    promise-polyfill "^8.1.0"
-    setasap "^2.0.1"
-
 promise-retry@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/promise-retry/-/promise-retry-1.1.1.tgz#6739e968e3051da20ce6497fb2b50f6911df3d6d"
@@ -4765,11 +4740,6 @@ set-value@^2.0.0, set-value@^2.0.1:
     is-extendable "^0.1.1"
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
-
-setasap@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/setasap/-/setasap-2.0.1.tgz#affba1a2841ba9a0825f652ea5cbe6ce88a4cef4"
-  integrity sha512-DsoqaT3/BB0FTXi8DGMoJse2SGYkUTkOQaCjBx/DJSodGN2EE/rHU9CyJ7H1mYGMyzJvwUlgJQTI4twRg5QY3g==
 
 sha@^3.0.0:
   version "3.0.0"
