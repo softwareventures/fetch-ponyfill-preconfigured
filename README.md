@@ -7,7 +7,7 @@ a high-quality native implementation of `Promise`.
 Therefore, this library is now just a trivial wrapper around
 [fetch-ponyfill][2] that uses the native `Promise` implementation.
 
-This library is still maintained, but it is not recommended for new projects.
+This library is no longer maintained, and is not recommended for new projects.
 
 For new projects, use [fetch-ponyfill][2] directly, or consider
 [cross-fetch][4] instead.
@@ -30,9 +30,8 @@ import `fetch` and use it without having to worry about how to configure it.
 However, every reasonably-modern platform now provides a high-quality native
 implementation of `Promise`, so this library no longer incorporates a `Promise`
 ponyfill, but instead configures fetch-ponyfill to use the native `Promise`
-implementation. It is still maintained for backwards compatibility with
-projects that still use it, but it is not particularly useful and is not
-recommended for new projects.
+implementation. This library is no longer maintained and is not recommended
+for new projects.
 
 Use [fetch-ponyfill][2] directly, or consider [cross-fetch][4] instead.
 
